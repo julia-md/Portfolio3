@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+
+        <a class="navbar-brand" href="index.html">Home</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="introducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logaritmo.html">Logaritmos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="equacoeslogs.html">Funções Logarítmcas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jurosimples.html">Juro Simples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jurocomposto.html">Juro Composto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="autoavaliacao.html">Avaliação</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div class="row mt-3">
+            <div class="container">
+                <div class="col md-auto text-center">
+                    <h2 class="titulo py-3 mt-4">Funções Logarítmicas
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="auto col-xl-12">
+                <h3 class="avaliacao1">O que é?</h3>
+                <p class="letra">Um número real <i>b</i> (0 < <i>b</i> ≠ 1), chamamo de função logarítmica de base
+                        <i>b</i> a função f de R<sup>*</sup>+<sub></sub>, onde R associa a cada x o número
+                        log<sub>b</sub>x.</p>
+                <p id="funcao"><b>f(x) = log<sub>b</sub>x</b></p>
+                <p class="letra">O domínio é D(f) = (0, +∞) = ℝ<sup>*</sup>+<sub></sub> e a imagem é Im(f) = ℝ.</p>
+                <p class="letra">Uma função logarítmica é inversamente proporcional a uma função exponencial, pois se
+                    por exemplo, tivermos uma função exponencial de base 3 que leva 2 a 9, em uma função logarítmica de
+                    base 3 acontece o inverso, leva 9 a 2.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="texto1 col-xl-12">
+                <h3 class="avaliacao1">Gráfico</h3>
+                <p class="letra">
+                    Para construir um gráfico de funções logarítmicas você pode atrivuir valores a x para encontrar seus
+                    pares ordenados em y. Porém, é importante saber quais valores de x podem ser atribuídos na função,
+                    tendo em vista as condições de existência dos logaritmos. Por isso é interessante estabelecer o
+                    domínio da função antes de fazer a construção do seu gráfico. Do mesmo modo, é relevante verificar a
+                    curvatura para ver se ela é crescente ou decrescente e quais as interseções dela com os eixos
+                    coordenados.
+                </p>
+                <h2 class="letra"><u>Assim, podemos estabeler alguns passos a serem seguidos antes da construção do
+                        gráfico.:</u></h2>
+                <ol class="letra">
+                    <li>Analisar o crescimento / decrescimento;</li>
+                    <li>Determinar o domínio;</li>
+                    <li>Achar as interseções com os eixos;</li>
+                    <li>Encontrar alguns pontos do gráfico.</li>
+                </ol>
+                <ul class="letra">
+                    <li><b>Crescimento e Decrescimento</b></li>
+                    <p class="letra">Seja b a base da função f(x) = log<sub>b</sub>x:</p>
+                    <p class="letra"><b>✓</b> b > 1 → Crescente → f(x) = log<sub>2</sub>x , g(x) = log<sub>5</sub>(2x -
+                        3)
+                    </p>
+                    <p class="letra"><b>✓</b> 0 < b < 1 → Decrescente → h(x)=log<sub>1/2</sub>x , p(x) =
+                            log<sub>0,3</sub>(x
+                            + 2)</p>
+                </ul>
+                <center>
+                    <img class="img-fluid" src="imagens/geogebra-export.png" width="650">
+                </center>
+                <br>
+                <ul class="letra">
+                    <li><b>Domínio</b></li>
+                    <p class="letra">Como dito anteriormente, não são todos os valores que o logaritmando pode assumir,
+                        ou seja, não
+                        são todos os valores que a variável x pode assumir, para que isso seja possível, é preciso que
+                        tais valores respeitem a condição de existência dos logaritmos. Assim, antes de simplesmente
+                        ficarmos depositando números aleatórios na função torcendo para que um desses faça parte do
+                        domínio dessa função, podemos resolver uma simples inequação. Isso será de grande ajuda para a
+                        contrução do gráfico mais a frente.</p>
+                    <center>
+                        <img class="img-fluid" src="imagens/funcaodominio.jpg" width="650">
+                    </center>
+                </ul>
+                <br>
+                <ul class="letra">
+                    <li><b>Interseção com o Eixo x: Raízes</b></li>
+                    <p class="letra">Sempre quando o gráfico de uma função fizer uma interseção com o eixo x, nós iremos
+                        ter raízes
+                        reais. E para encontrar essas raízes, devemos utilizar a equação f(x) = 0.</p>
+                    <center>
+                        <img class="img-fluid" src="imagens/raiz.jpg" width="650">
+                    </center>
+                </ul>
+                <br>
+                <ul class="letra">
+                    <li><b>Interseção com o Eixo x: Raízes</b></li>
+                    <p class="letra">Nem toda função logarítmica intersecta o eixo das ordenadas, isso se dá por conta
+                        das restrições que existem no domínio. Se o domínio for somente de valores maiores que zero, não
+                        irá cruzar o eixo y.</p>
+                    <center>
+                        <img class="img-fluid" src="imagens/eixoy.jpg" width="650">
+                    </center>
+                </ul>
+                <br>
+                <p class="letra">Depois de realizar todos esses passo é só fazer a construção do gráfico e pronto, você
+                    tem sua função resolvida.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="auto col-xl-12">
+                <h3 class="avaliacao1">Exercícios</h3>
+                <br>
+                <center>
+                    <img class="img-fluid" src="imagens/exerciciofuncao.jpg" width="450">
+                </center>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="texto1 col-xl-12">
+                <h3 class="avaliacao1">Reflexão</h3>
+                <p class="letra">Assim como os logaritmos, ouso dizer, foram os conteúdos mais difíceis que eu já vi,
+                    principalmente pois agora, além de termos que realizar contas com logaritmos, algo que eu ainda não
+                    dominei, temos que achar o domínio da função, suas interseções e ainda por cima contruir um gráfico,
+                    é como se pegassem todos os conteúdos mais difíceis e colocassem em um só, criando assim as funções
+                    logarítmicas. Apesar das dificuldades eu devo agrader a professora por explicar com calma e
+                    pacientemente esse conteúdo inúmeras vezes, sem ela eu não sei o que seria de mim. Eu realmente
+                    espero nunca mais ver algo parecido como isso na minha vida.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row center text-center">
+        <div class=" mt-3 mb-4 mx-5 mr-5 pl-5 col-lg-5 col-md-6 col-sm-6">
+            <h2 class="botao1 "><a href="logaritmo.html" style="color: aliceblue">Voltar</a></h2>
+        </div>
+        <div class="mt-3 mb-4 mx-5 mr-5 pl-5 col-lg-5 col-md-6 col-sm-6">
+            <h2 class=" botao1"><a href="jurosimples.html" style="color: aliceblue">Seguir</a></h2>
+        </div>
+    </div>
+</body>
+
+</html>

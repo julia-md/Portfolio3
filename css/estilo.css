@@ -1,0 +1,157 @@
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #ede0d4;
+}
+
+.titulo {
+    border-radius: 25px;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: #ddb892;
+}
+
+.botao {
+    color: white;
+    background-color: #ddb892;
+    padding: 12px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: #d7a16a;
+}
+
+.botao:active {
+    position:relative;
+    top:2px;
+}
+
+.auto {
+    background-color: #ddb892;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+}
+
+.avaliacao {
+    text-align: center;
+}
+
+.figura:hover {
+    background-color: #d7a16a;
+}
+
+.letra {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.texto1 {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.botao1 {
+    align-items: center;
+    background-color: #ddb892;
+    border-radius: 35px;
+    padding: 12px;
+}
+
+.botao1:hover {
+    background-color: #d7a16a;
+}
+
+.botao1:active {
+    position:relative;
+    top:2px;
+}
+
+nav {
+    background-color: #ddb892;
+    color: aliceblue;
+}
+
+.avaliacao1 {
+    text-align: left;
+}
+
+#customers td, th {
+    border: 1px solid rgb(192, 189, 189);
+    padding: 8px;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+ }
+
+ #customers thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#ddb892;
+    color: white;
+}
+
+#customers tbody > tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tbody > tr:hover {
+    background-color: #ddd;
+}
+
+#funcao {
+    text-align: center;
+    font-size: 25px;
+}
+
+#borda {
+    border: 2px solid #a7784a;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: #ddb892;
+}
+
+#titulo {
+    font-size: 28px;
+    color: aliceblue;
+    text-shadow: 1px 1px #835e39;
+}
+
+.botao2{
+    display:inline-block;
+    cursor:pointer;
+    padding:5px 9px;
+    text-decoration:none;
+    margin: 3px;
+    box-shadow: 0px 1px 5PX #835e39;
+}
+
+.botao2:hover{
+    background:  #d7a16a;
+}
+
+.botao2:active {
+    position:relative;
+    top:2px;
+}
+
+.place:placeholder-shown {
+    
+    border-radius: 20px;
+    display:inline-block;
+    cursor:pointer;
+    padding:5px 9px;
+    box-shadow: 0px 1px 5PX #835e39;
+    text-decoration:none;
+    margin: 3px;
+}

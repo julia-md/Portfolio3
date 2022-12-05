@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+
+        <a class="navbar-brand" href="index.html">Home</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="introducao.html">Introdução</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logaritmo.html">Logaritmos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="funcoeslogs.html">Funções Logarítmcas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jurosimples.html">Juro Simples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jurocomposto.html">Juro Composto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="autoavaliacao.html">Avaliação</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div class="row mt-3">
+            <div class="container">
+                <div class="col md-auto text-center">
+                    <h2 class="titulo py-3 mt-4">Logarítmos
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="auto col-xl-12">
+                <h3 class="avaliacao1">O que são?</h3>
+
+                <p class="letra">O criador do conceito <b>"logaritmo"</b> foi o matemático, físico e astrônomo, John
+                    Napier
+                    (1550-1617), segundo ele, criou-se uma necessidade de transformar as equações muito difíceis que,
+                    envolvessem
+                    multiplicação e divisão, em algo mais simples que apresetasse a adição e a subtração. Napier se
+                    inspirou nas
+                    propriedades das equações de mesma base para criar a ideia do <b>logaritmo</b>. De uma maneira
+                    simples, a
+                    operação logaritmo é caracterizada pela expressão: <b>"log<sub>a</sub> b = x ⇔ a<sup>x</sup> =
+                        b"</b>. Onde:</p>
+                <ol class="letra">
+                    <ul>a → base;</ul>
+                    <ul>b → logaritimando;</ul>
+                    <ul>x → logaritmo.</ul>
+                </ol>
+                </p>
+                <center>
+                    <img class="img-fluid" src="imagens/log.jpg" width="650">
+                </center>
+                <br>
+                <h2 class="letra"><u>Algumas conclusões:</u></h2>
+                <ol class="letra">
+                    <li>O logritimo pode se tranformar em uma função exponencial.</li>
+                    <li>O logaritmanod não pode ser zero nem número negativo.</li>
+                    <li>A base não pode ser zero, 1 ou número negativo.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid">
+            <div class="texto1 col-xl-12">
+                <h3 class="avaliacao1">Propriedades Operatórias</h3>
+                <p class="letra">
+                    As propriedades operatórias dos logaritmos nos ajudam na realização dos cálculos que possuem
+                    logaritmos, tornando-as mais fáceis para resolver. Elas trasformam multiplicações logarítmicas em
+                    soma, divisões em subtrações, potências em multiplicações, além de que também existe uma propriedade
+                    de mudança de base.
+                </p>
+
+                <div class="table-responsive-sm">
+                    <table class="table table-bordered" id="customers">
+                        <thead>
+                            <tr>
+                                <th>Propriedade</th>
+                                <th>Nomenclatura</th>
+                                <th>Fórmula</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>1ª Propriedade</b></td>
+                                <td>Logaritmo de um produto</td>
+                                <td>log<sub>a</sub>(M . N) = log<sub>a</sub> M + log<sub>a</sub> N</td>
+                            </tr>
+                            <tr>
+                                <td><b>2ª Propriedade</b></td>
+                                <td>Logaritmo de um quociente</td>
+                                <td>log<sub>a</sub>(M / N) = log<sub>a</sub> M - log<sub>a</sub> N</td>
+                            </tr>
+                            <tr>
+                                <td><b>3ª Propriedade</b></td>
+                                <td>Logaritmo de uma potência</td>
+                                <td>log<sub>a</sub> M<sup>N</sup> = N . log<sub>a</sub> M</td>
+                            </tr>
+                            <tr>
+                                <td><b>4ª Propriedade</b></td>
+                                <td>Mudança de Base</td>
+                                <td>log<sub>b</sub> N = log<sub>a</sub> N / log<sub>a</sub> b</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <ul class="letra">
+                    <li>1ª propriedade</li>
+                </ul>
+                <p class="letra">Para calcularmos o logaritmo de um produto, podemos fazer a soma de cada um dos fatores
+                    da multiplicação, utilizando a mesma base <b><i>a</i></b> do logaritmo.
+                </p>
+                <center>
+                    <img class="img-fluid" src="imagens/1propriedade.jpg" width="650">
+                </center>
+                <br>
+                <ul class="letra">
+                    <li>2ª propriedade</li>
+                </ul>
+                <p class="letra">Para calcularmos o logaritmo de um quociente, podemos fazer uma subtração entre o
+                    logaritmo na base <b><i>a</i></b> do dividendo e o logaritmo na base <b><i>a</i></b> do divisor.
+                </p>
+                <center>
+                    <img class="img-fluid" src="imagens/2propriedade.jpg" width="650">
+                </center>
+                <br>
+                <ul class="letra">
+                    <li>3ª propriedade</li>
+                </ul>
+                <p class="letra">Para calcularmos o logaritmo de uma potência, podemos fazer o logaritmo de
+                    <b><i>M</i></b> elevado a
+                    <b><i>N</i></b> na base <b><i>a</i></b> já que ele é igual a <b><i>N</i></b> vezes o logaritmo de
+                    <b><i>M</i></b> na base <b><i>a</i></b>.
+                </p>
+                <center>
+                    <img class="img-fluid" src="imagens/3propriedade.jpg" width="650">
+                </center>
+                <br>
+                <ul class="letra">
+                    <li>4ª propriedade</li>
+                </ul>
+                <p class="letra">Por causa da mudança de base, podemos reescrever esse logaritmo como o quociente entre
+                    logaritmo de <b><i>N</i></b> na base <b><i>a</i></b> e o logaritmo de <b><i>b</i></b> na base
+                    <b><i>a</i></b>.</b>
+                </p>
+                <center>
+                    <img class="img-fluid" src="imagens/4propriedade.jpg" width="650">
+                </center>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="auto col-xl-12">
+                <h3 class="avaliacao1">Equações Logarítmicas</h3>
+                <p class="letra">Para resolver uma equação logarítmica existem três passos que podem ser seguidos.</p>
+                <ol class="letra">
+                    <li>Observar a condição de existência, ou seja, o domínio.</li>
+                    <li>Manejar a equação, usando as propriedades, até transformá-la em uma equação exponencial.Isolar o
+                        x e usar logaritmo de novo, se por precisso.</li>
+                    <li>Conferir se o resultado satisfaz a condição de existência.</li>
+                </ol>
+                <center>
+                    <img class="img-fluid" src="imagens/equacaolog.jpg" width="650">
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="texto1 col-xl-12">
+                <h3 class="avaliacao1">Reflexão</h3>
+                <p class="letra">Agora posso dizer com precisão, logaritmos não são para mim. Esse foi, definitivamente,
+                    o
+                    conteúdo que mais tive dificuldade durante todo o ano. A princípio eu até tinha conseguido entender,
+                    mas depois que começamos a aprender as equações logarítmicas eu me perdi bastante, mas com as
+                    explicações da professora consegui compreender melhor (ainda assim, eu espero nunca mais ver esse
+                    conteúdo novamente). Sempre acabo me confundindo na hora realizar as equações pois nunca sei qual
+                    propriedade devo usar e se sei, não consigo enteder como aplicá-la na conta. De modo geral eu espero
+                    nunca mais precisar usar logaritmos novamente.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row center text-center">
+        <div class=" mt-3 mb-4 mx-5 mr-5 pl-5 col-lg-5 col-md-6 col-sm-6">
+            <h2 class="botao1 "><a href="index.html" style="color: aliceblue">Voltar</a></h2>
+        </div>
+        <div class="mt-3 mb-4 mx-5 mr-5 pl-5 col-lg-5 col-md-6 col-sm-6">
+            <h2 class=" botao1"><a href="funcoeslogs.html" style="color: aliceblue">Seguir</a></h2>
+        </div>
+    </div>
+</body>
+
+</html>
